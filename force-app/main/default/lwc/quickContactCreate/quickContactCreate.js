@@ -5,7 +5,7 @@ import { createReplicatedDataset } from 'lightning/analyticsWaveApi';
 export default class QucikContactCreate extends LightningElement {
 
     FirstName = "";
-    LastName = "";
+    LastName = " ";
     ContactId = "";
 
     CreateContact(event){
