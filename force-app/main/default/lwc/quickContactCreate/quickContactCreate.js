@@ -6,7 +6,7 @@ export default class QucikContactCreate extends LightningElement {
 
     FirstName = "";
     LastName = " ";
-    ContactId = "";
+    ContactId = " ";
 
     CreateContact(event){
         const inputBox = this.template.querySelectorAll("lightning-input");
